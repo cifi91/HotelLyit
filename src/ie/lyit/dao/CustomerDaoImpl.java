@@ -8,6 +8,17 @@ import ie.lyit.hotel.Customer;
 public class CustomerDaoImpl implements CustomerDao {
 	
 	
+	/**
+	 * @author Berkan
+	 * 
+	 * Data Access Object concrete class 
+	 * This class implements above interface. 
+	 * This class is responsible to get data from a data source which can be database, 
+	 * xml or any other storage mechanism.
+	 * 
+	 * 
+	 */
+	
 	List<Customer> customer;
 	
 	public CustomerDaoImpl() {

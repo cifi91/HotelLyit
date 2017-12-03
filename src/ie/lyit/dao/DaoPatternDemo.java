@@ -7,6 +7,13 @@ public class DaoPatternDemo {
 
 	public static void main(String[] args) {
 		
+		/**
+		 * @author Berkan
+		 * 
+		 * Use the CustomerDao to demonstrate Data Access Object pattern usage.
+		 * 
+		 */
+		
 		CustomerDao custDao = new CustomerDaoImpl();
 		
 		
